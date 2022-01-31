@@ -1,0 +1,23 @@
+<h1>asdasd</h1>
+
+
+<form action="/admin/edit/{{base.id}}" method="POST" >
+  <div class="card-body">
+    <div class="form-group">
+      <label for="maqolaTitle">title</label>
+      <input type="text" class="form-control" name="title" id="title" value={{base.title}} />
+    </div>
+    <div class="form-group">
+      <label for="maqolaText">Price</label>
+      <input type="text" class="form-control" name="price" id="price" value={{base.price}} />
+    </div>
+    <div class="form-group">
+      <label for="maqolaText">img</label>
+      <input type="text" class="form-control" name="img" id="img" value={{base.img}} />
+    </div>
+
+  </div>
+  <div class="card-footer">
+    <button class="btn btn-primary" type="submit">Yaratish</button>
+  </div>
+</form>

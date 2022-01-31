@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        {{#if basa.length}}
+        {{#each basa}}
+        <div class="col-4">
+            <h1>{{title}}</h1>
+            <p>{{price}}</p>
+            <img style="width: 100%;" src="{{img}}" alt="">
+        </div>
+        {{/each}}
+        {{else}}
+        <h1>Bazada malumotlar yuq</h1>
+        {{/if}}
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <form action="/" method="POST">
+            <input type="text" placeholder="title" name="title" id="title">
+            <input type="number" placeholder="price" name="price" id="price">
+            <input type="text" placeholder="img" name="img" id="img">
+            <button type="submit">submit</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+HOST=localhost
+PORT=3000
+MONGOURI=mongodb+srv://shukurov:1234qwer123@cluster0.wzpci.mongodb.net/AdminPageForTempiltin
+
+
+
+https://github.com/Tempiltin99/expGeneretor.git
+git clone https://github.com/Tempiltin99/expGenerator.git
+
+
+git clone https://github.com/Tempiltin99/expGenerator.git
